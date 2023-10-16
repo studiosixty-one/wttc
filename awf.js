@@ -552,7 +552,7 @@
         }, {
             key: "disableElement",
             value: function(e) {
-                e && (e.style.pointerEvents = "none")
+                e && (e.style.pointerEvents = "")
             }
         }, {
             key: "enableElement",
